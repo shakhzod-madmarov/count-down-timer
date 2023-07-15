@@ -1,0 +1,37 @@
+.timer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  height: 70%;
+}
+
+.inpTime {
+  background-color: transparent;
+  border: none;
+  border-bottom: white solid 2px;
+  padding: 5px;
+  color: white;
+  font-size: 25px;
+  width: 30px;
+}
+
+.seconds {
+  margin: 0;
+  font-size: 200px;
+  width: 50%;
+  background-color: #4f4d4d;
+  border-radius: 10px;
+}
+
+.btnStart {
+  background-color: #6c38cc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 30px;
+  margin: 30px;
+  padding: 10px;
+  width: 50%;
+  cursor: pointer;
+}
